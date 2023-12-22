@@ -22,10 +22,18 @@ Como metodologia, foram realizadas cinco abordagens do método CCA, em ambiente 
 ## Introdução
 A Interface Cérebro Máquina (ICM) é uma tecnologia que permite a comunicação entre o cérebro humano e um dispositivo externo, como por exemplo as máquinas eletrônicas, através dos impulsos elétricos emitidos pelos neurônios. A ICM é capaz de transformar a atividade cerebral em ações reproduzidas por máquinas, permitindo que indivíduos com diferentes graus de deficiência motora possam desempenhar ações como controlar computadores, dirigir cadeiras de rodas, manipular braços robóticos, entre outras.
 <br><br>
-De forma geral, todos os sistemas ICM apresentam os mesmos processos de construção dividido em etapas, como mostrado na Figura 1.
+De forma geral, todos os sistemas ICM apresentam os mesmos processos de construção dividido em etapas, como mostrado na ilustração baixo.
 <br>
 
-<br><br>
 <p align="center">
-  <img src= /../main/Imagens/Fig_1.png>
+  <img src= /../main/Imagens/Fig_1.png  width="600" >
 </p>
+
+Na aquisição de sinais, onde ocorre a coleta de sinais obtidos por eletrodos que percebem uma atividade cerebral em decorrência de um estímulo interno ou externo. Em seguida, no pré-processamento, esses sinais são filtrados e modelados para atender o formato desejado para processamento. Na extração de características, aplicam-se tecnicas e métodos para evidenciar os aspectos de cada sinal e que vão auxiliar a classificação dos sinais. A etapa de classificação tem o objetivo atribuir o conjunto de dados a grupos e categoriza-los de acordo com atividade cerebral a qual eles são deveriam ser relacionados. Por fim, os sinais classificados são convertidos em sinais de comandos e enviados para a aplicação que volta como um feedback para o usuário.
+<br><br>
+Cada sistema ICM se diferencia com o tipo de método de aquisição e tipo de sinal que se utiliza e também o tipo de estímulo que é aplicado. Por consequência, as técnicas e métodos aplicadas variam com essas escolhas. Em relação ao tipo de sinal, o mais comum encontrado nas literaturas é o Eletroencefalograma ou EEG que trabalha com a atividade elétrica cerebral. Apesar de ser bastante suscetível, suscetível a interferências no sinal, o seu uso se justifica por ser mais barato, fácil de trabalhar e utiliza eletrodos em contato com a pele seguindo um padrão de posicionamento como o representado na figura abaixo.
+
+<p align="center">
+  <img src= /../main/Imagens/Fig_2.png width="600" >
+</p>
+
